@@ -185,19 +185,24 @@ animation: menuee 10s infinite linear;
 }
 img:hover{
 
-box-sizing:border-box;
-animation: changethis 2s infinite linear;
-} 
-@keyframes changethis{
-10%{width:280px;
-height:230px;
-}
+
 50%{width:300px;
 height:250px;
 }
 100%{width:340px;
 height:290px;
 }}
+:focus{outline:none;}
+
+input{width:100%;
+border:1px solid black;
+height:40px;
+border-radius:30px;}
+
+textarea{width:100%;
+border:1px solid black;
+border-radius:10px;}
+input:focus,textarea:focus{box-shadow: 1px 1px 10px  #47fff9;
 
 </style>
 </head>
@@ -206,7 +211,7 @@ height:290px;
 <!-- header -->
 <header class="hed" onmouseover="hideit()">
 <div class="head line">
-    <span style="margin-top:15px;margin-right:14px;background-color:black;border:15px solid black;border-radius:10px;"><a href="retryingfinalfinal1.html">home</a></span>
+    <span style="margin-top:15px;margin-right:14px;background-color:black;border:15px solid black;border-radius:10px;"><a href="retryingfinalfinal1.html" target="_blank">home</a></span>
 </div>
 
 <br><span style="font-size:150px;">Khate Raho<span><br>
